@@ -15,5 +15,5 @@ It shows how to:
 ### 1. Set up the environment
 
 ```bash
-conda create --name mine_ai python=3.10 -y
-conda activate mine_ai
+conda create --name new_env python=3.10 -y
+conda activate new_env
