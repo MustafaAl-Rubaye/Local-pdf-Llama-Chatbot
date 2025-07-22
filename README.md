@@ -51,7 +51,7 @@ python main_ollama.py
 
 ### Example questions
 
-```bash
+```text
 Welcome to DocBot!     Type 'exit', 'exit', 'bye' to stop.
 You: hi
 DocBot:  I'm happy to help! However, I don't see any specific question or PDF information provided. Could you please clarify what you would like me to answer?
