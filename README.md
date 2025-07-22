@@ -44,4 +44,7 @@ pip install "unstructured[pdf]"
 
 
 ## 💬 Run the Chatbot
+
+```bash
 python main_ollama.py
+```
