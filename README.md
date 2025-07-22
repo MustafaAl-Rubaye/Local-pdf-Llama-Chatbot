@@ -17,6 +17,7 @@ It shows how to:
 ```bash
 conda create --name new_env python=3.10 -y
 conda activate new_env
+conda install python -y
 ```
 
 ### 2. Install Ollama
