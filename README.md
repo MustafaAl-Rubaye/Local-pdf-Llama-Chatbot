@@ -48,3 +48,19 @@ pip install "unstructured[pdf]"
 ```bash
 python main_ollama.py
 ```
+
+### Example questions
+
+```bash
+Welcome to DocBot!     Type 'exit', 'exit', 'bye' to stop.
+You: hi
+DocBot:  I'm happy to help! However, I don't see any specific question or PDF information provided. Could you please clarify what you would like me to answer?
+```
+
+## 📁 Project Structure
+.
+├── main_ollama.py          # Chat loop: ask questions about any PDF
+├── input_pdfs.py           # Loads, splits, indexes PDFs with metadata
+├── pdfs/                   # Drop your PDF files here
+
+
