@@ -33,7 +33,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 Pull the required models:
 
 ```bash
-ollama pull llama3
+ollama pull llama3 #or other models from https://github.com/ollama/ollama
 ollama pull mxbai-embed-large
 ```
 
