@@ -37,6 +37,8 @@ ollama pull mxbai-embed-large
 ```bash
 pip install langchain langchain-ollama ollama
 pip install langchain-chroma langchain-community
+pip install unstructured
+# or install the full extra dependencies
 pip install pypdf "unstructured[pdf]"
 ```
 
