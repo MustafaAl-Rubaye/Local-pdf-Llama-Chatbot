@@ -8,6 +8,10 @@ It shows how to:
 - 💬 Build a conversational interface for querying local files
 - 🔒 Work completely offline after setup
 
+> 🛡️ **Why this project?**  
+> The main motivation was to explore how LLMs can be used **entirely offline** to safely analyze **sensitive or confidential PDFs** — without relying on cloud services or exposing private data.
+
+
 ---
 
 ## 🚀 Getting Started
