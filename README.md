@@ -58,9 +58,10 @@ DocBot:  I'm happy to help! However, I don't see any specific question or PDF in
 ```
 
 ## 📁 Project Structure
+```bash
 .
 ├── main_ollama.py          # Chat loop: ask questions about any PDF
 ├── input_pdfs.py           # Loads, splits, indexes PDFs with metadata
 ├── pdfs/                   # Drop your PDF files here
-
+```
 
