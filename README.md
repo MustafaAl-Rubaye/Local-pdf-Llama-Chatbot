@@ -17,3 +17,28 @@ It shows how to:
 ```bash
 conda create --name new_env python=3.10 -y
 conda activate new_env
+```
+
+### 2. Install Ollama
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+Pull the required models:
+
+```bash
+ollama pull llama3
+ollama pull mxbai-embed-large
+```
+
+### 3. Install Python Dependencies
+```bash
+pip install langchain langchain-ollama ollama
+pip install langchain-chroma langchain-community
+pip install pypdf "unstructured[pdf]"
+```
+
+
+## 💬 Run the Chatbot
+python main_ollama.py
